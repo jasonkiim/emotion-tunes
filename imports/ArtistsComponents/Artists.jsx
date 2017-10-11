@@ -11,7 +11,7 @@ export default class Artists extends Component {
                 <div className="background-layer" />
                 <div className="artist-text-container">
                     <h1 className="artist-container-title">
-                        Artists Including...
+                        Featured artists include...
                     </h1>
                     <h2 className="artist-description">Drake, Kendrick Lamar, Bad Bad Not Good, Honne, Local Natives,
                         and many more 

@@ -11,7 +11,6 @@ import FlatButton               from 'material-ui/FlatButton';
 //Importing jsx File(s)
 import UserUploadDefaultModal   from './UserUploadDefaultModal';
 import ResultModal              from '../ResultModal';
-import * as Playlist            from '../Sources/MusicSrc';
 
 /*Since we're not mapping each individual image, all the handlers are called as props
 from EmotionTunesContainer. This allows for cleaner componentization as all the handlers 
