@@ -1,0 +1,204 @@
+/*Overall CSS*/
+html {
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	font-weight: 100;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h4 {
+	font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+	height: 100%;
+	width: 100%;
+	display: block
+}
+.button {
+	background-color: white;
+}
+
+.container {
+	overflow: hidden;
+  	background-color: rgb(0, 188, 212);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.bold-text {
+	color: #ff4081;
+	font-weight: 200;
+}
+
+.image-paper {
+	width: 100%;
+	height: 100%;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.image-paper:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 13px;
+}
+
+/*Navigation Bar Components CSS*/
+/*Header Components CSS*/
+.header-container {
+	overflow: hidden;
+  	background-color: rgb(0, 188, 212);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.header-text-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	margin: 0px auto 0px;
+	max-width: 700px;
+}
+
+
+.header-title {
+	margin: 0;
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 40px;
+}
+
+.header-title-description {
+	margin-top: 15px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.87);
+	text-align: center;
+	font-weight: 200;
+}
+
+
+
+.description-container {
+  	background-color: #EEEEEE;
+	box-sizing: border-box;
+}
+
+.description-text-container {
+	padding-top: 30px;
+	text-align: center;
+	margin: 0px auto 0px;
+	max-width: 700px;
+}
+.description {
+	max-width: 700px;
+    margin: 0px auto 13px;
+    padding: 19px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+}
+
+/*Artist Component CSS*/
+.artist-container {
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+
+.artist-container-title {
+	margin: 0;
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 35px;	
+}
+.artist-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto 0px;
+	max-width: 700px;
+}
+
+.artist-description {
+	max-width: 700px;
+    margin: 0px auto 13px;
+    padding: 19px 0px 0px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 28px;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.background-layer {
+ 	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.7);    
+}
+
+/*Footer Component CSS*/
+.footer-container {
+	background-color: rgba(48, 48, 48, 48);
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.footer-text-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin: 0px auto 0px;
+	max-width: 700px;
+}
+
+.footer-description {
+	max-width: 700px;
+    margin: 0px auto 13px;
+    padding: 19px 0px 0px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;	
+}
+
+
+
+/*GridView Components CSS*/
+.grid-view-container {
+	padding: 24px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.grid-view-text-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin: 0px auto 0px;
+	max-width: 700px;
+}
+
+.grid-view-header-title {
+	margin: 0;
+	color: #000000;
+	font-size: 40px;
+}
+
+/*Dialog Components CSS*/
+.dialog-container {
+	position: relative;
+}
+
+.emotion-result {
+	font-size: 20px;
+}
