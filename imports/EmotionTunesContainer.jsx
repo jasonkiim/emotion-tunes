@@ -12,7 +12,6 @@ export default class EmotionTunesContainer extends Component {
 
     state = {
         openUserUploadModalDialog: false,
-        disabled: true,
         imagePreviewURL: './white.jpg',
         imageURL: '',
         emotion: '',
@@ -103,8 +102,7 @@ export default class EmotionTunesContainer extends Component {
         {
             this.setState({
                 imagePreviewURL: e.target.value,
-                imageURL: e.target.value,
-                disabled: false
+                imageURL: e.target.value
             })
         }
     }
